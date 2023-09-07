@@ -1,3 +1,3 @@
 ## TODO
 
--[] publish to npm
+-[ ] Publish to npm
