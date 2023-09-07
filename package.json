@@ -8,7 +8,7 @@
   },
   "main": "dist/index.js",
   "module": "dist/index.mjs",
-  "types": "dict/indext.d.ts",
+  "types": "dist/indext.d.ts",
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts",
     "test": "vitest",
