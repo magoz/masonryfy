@@ -2,6 +2,10 @@
   "name": "masonryfy",
   "version": "1.0.0",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/magoz/masonry.git"
+  },
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dict/indext.d.ts",
