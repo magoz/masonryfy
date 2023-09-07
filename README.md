@@ -4,6 +4,8 @@ Convert an array of items into an array of columns of items.
 
 Each item is placed in the shortest column, creating a Masonry like structure.
 
+No external dependencies.
+
 
 ## 📦 Install
 
