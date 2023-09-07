@@ -1,6 +1,8 @@
 {
+  "version": "1.0.6",
+  "author": "magoz",
   "name": "masonryfy",
-  "version": "1.0.5",
+  "description": "Convert an array of items into an array of columns of items. Masonry style.",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -9,6 +11,18 @@
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "keywords": [
+    "masonry",
+    "layout",
+    "grid",
+    "responsive",
+    "javascript",
+    "typescript",
+    "matrix"
+  ],
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts",
     "test": "vitest",
