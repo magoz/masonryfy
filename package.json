@@ -1,5 +1,5 @@
 {
-  "version": "1.0.6",
+  "version": "1.0.7",
   "author": "magoz",
   "name": "masonryfy",
   "description": "Convert an array of items into an array of columns of items. Masonry style.",
