@@ -4,7 +4,6 @@ Convert an array of items into an array of columns of items.
 
 Each item is placed in the shortest column, creating a Masonry like structure.
 
-Each item must specify a width and height.
 
 ## 📦 Install
 
@@ -47,7 +46,7 @@ The items will be distributed in a Masonry type of structure.
   // +------+-------+-------+
 ```
 
-Te result can be used by any frontend to create a masonry-like layout like so:
+The result can be used by any frontend to create a masonry-like layout like so:
 
 ```tsx
 // Example using React. But can be adapted to any frontend framework.
@@ -81,14 +80,12 @@ export const MasonryGrid = ({ items }: Props) => {
         </ul>
 
       )}
-
     </section>
   )
 }
 ```
 
 ## Good to know
-
 
 - Masonryfy uses [generics](https://www.typescriptlang.org/docs/handbook/2/generics.html), so types will be preserved.
 - If an item has width `0` it will be counted as a square.
